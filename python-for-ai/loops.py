@@ -13,4 +13,15 @@ for i in range(0,10,2):
 
 name = "python"
 for letter in name:
-    print(letter)    
+    print(letter)
+
+colors = ["red","blue","green"]
+for color in colors:
+    print(f"i love {color}")
+
+
+# while loop
+count = 1
+while count < 5:
+    print(count)
+    count += 1
